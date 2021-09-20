@@ -26,6 +26,8 @@ System.setProperty("webdriver.chrome.driver", "D:\\Sai\\chromedriver.exe");
 		driver.findElement(By.xpath("//input[@onclick='Billing.save()']")).click();
 		
 		driver.close();
+		
+		driver.quit();
 
 	}
 
