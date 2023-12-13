@@ -1,4 +1,11 @@
 # Starter pipeline
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Write your commands here
+      
+      echo Hello world
+    workingDirectory: 'cd C:\Users\jashw\eclipse-workspace\SeleniumBasicProgram2'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
